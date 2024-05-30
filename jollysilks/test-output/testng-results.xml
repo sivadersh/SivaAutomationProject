@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-30T20:54:00 IST" name="Default suite" finished-at="2024-05-30T20:55:47 IST" duration-ms="107351">
+    <groups>
+    </groups>
+    <test started-at="2024-05-30T20:54:00 IST" name="Default test" finished-at="2024-05-30T20:55:47 IST" duration-ms="107351">
+      <class name="testpkg.Testing">
+        <test-method is-config="true" signature="loading()[pri:0, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:54:00 IST" name="loading" finished-at="2024-05-30T20:54:12 IST" duration-ms="12303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loading -->
+        <test-method signature="homescrolling()[pri:1, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:54:12 IST" name="homescrolling" finished-at="2024-05-30T20:54:28 IST" duration-ms="15370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homescrolling -->
+        <test-method signature="pfile()[pri:2, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:54:28 IST" name="pfile" finished-at="2024-05-30T20:54:29 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pfile -->
+        <test-method signature="submission()[pri:3, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:54:29 IST" name="submission" finished-at="2024-05-30T20:54:35 IST" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submission -->
+        <test-method signature="homepage()[pri:5, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:54:35 IST" name="homepage" finished-at="2024-05-30T20:54:51 IST" duration-ms="16404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="filtering()[pri:6, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:54:51 IST" name="filtering" finished-at="2024-05-30T20:54:57 IST" duration-ms="5756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filtering -->
+        <test-method signature="scrolling()[pri:7, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:54:57 IST" name="scrolling" finished-at="2024-05-30T20:55:02 IST" duration-ms="4591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolling -->
+        <test-method signature="addingwishlist()[pri:8, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:02 IST" name="addingwishlist" finished-at="2024-05-30T20:55:06 IST" duration-ms="4064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingwishlist -->
+        <test-method signature="cart()[pri:9, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:06 IST" name="cart" finished-at="2024-05-30T20:55:10 IST" duration-ms="4325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="cartbtn()[pri:10, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:10 IST" name="cartbtn" finished-at="2024-05-30T20:55:15 IST" duration-ms="5146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartbtn -->
+        <test-method signature="bagbtn()[pri:11, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:15 IST" name="bagbtn" finished-at="2024-05-30T20:55:18 IST" duration-ms="2675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bagbtn -->
+        <test-method signature="cout()[pri:12, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:18 IST" name="cout" finished-at="2024-05-30T20:55:25 IST" duration-ms="6947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cout -->
+        <test-method signature="clearingcart()[pri:13, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:25 IST" name="clearingcart" finished-at="2024-05-30T20:55:28 IST" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearingcart -->
+        <test-method signature="lastprocess()[pri:14, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:28 IST" name="lastprocess" finished-at="2024-05-30T20:55:40 IST" duration-ms="11891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastprocess -->
+        <test-method signature="screensht()[pri:15, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:40 IST" name="screensht" finished-at="2024-05-30T20:55:44 IST" duration-ms="4539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screensht -->
+        <test-method signature="logocheck()[pri:16, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:44 IST" name="logocheck" finished-at="2024-05-30T20:55:44 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logocheck -->
+        <test-method signature="artsilk()[pri:17, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:44 IST" name="artsilk" finished-at="2024-05-30T20:55:44 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- artsilk -->
+        <test-method signature="exit()[pri:18, instance:testpkg.Testing@11392934]" started-at="2024-05-30T20:55:44 IST" name="exit" finished-at="2024-05-30T20:55:47 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testpkg.Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
