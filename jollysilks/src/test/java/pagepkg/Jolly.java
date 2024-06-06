@@ -28,7 +28,20 @@ public class Jolly {
 	@FindBy(xpath = "//*[@id=\"root\"]/main/div[1]/div/div/div/form/div[5]/button[1]/span")
 	WebElement submit;
 	
+	@FindBy(xpath = "//*[@id=\"root\"]/main/div[1]/div[2]/div/div/div/div/a[1]/div/div/picture/img")
+	WebElement element;
 	
+	@FindBy(xpath = "//*[@id=\\\"root\\\"]/main/div[1]/div[4]/div/div/div/div[2]/div[1]/div/a/div/div[1]")
+	WebElement element2;
+	
+	@FindBy(xpath = "//*[@id=\\\"root\\\"]/main/div[1]/div[6]/div/div/div/div/div[1]/div/div[2]/div/div/div[2]")
+	WebElement element3;
+	
+	@FindBy(xpath = "//*[@id=\\\"root\\\"]/main/div[1]/div[8]/div/div/div/div/div/div[1]/div/a/div/div[1]")
+	WebElement element4;
+	
+	@FindBy(xpath = "//*[@id=\\\"root\\\"]/main/div[1]/div[11]/div/div/div/div[2]/div[1]/div/a/div/div[1]")
+	WebElement element5;
 	
 	@FindBy(xpath = "//*[@id=\"root\"]/main/header/div/div/div/nav/a/img")
 	WebElement home1;
@@ -161,6 +174,22 @@ public class Jolly {
 	public void homepage()
 	{
 		home1.click();
+	}
+	
+	public void homescrolling() throws Exception
+	{
+		Actions act = new Actions(driver);
+		act.moveToElement(element).perform();
+		Thread.sleep(2000);
+		act.moveToElement(element2).perform();
+		Thread.sleep(2000);
+		act.moveToElement(element3).perform();
+		Thread.sleep(2000);
+		act.moveToElement(element4).perform();
+		Thread.sleep(2000);
+		act.moveToElement(element5).perform();
+		Thread.sleep(2000);
+		
 	}
 	
 	public void silksaree()

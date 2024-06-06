@@ -25,36 +25,17 @@ import utilities.Exceldata;
 public class Testing extends Baseclass{
 	
 	@Test(priority = 1)
-	public void homescrolling() throws Exception
+	public void scroll() throws Exception
 	{
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,300)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,410)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,420)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,400)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,350)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,330)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,320)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,340)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,300)", "");
-		Thread.sleep(1500);
-		js.executeScript("window.scrollBy(0,300)", "");
-		Thread.sleep(1500);
+		Jolly jol=new Jolly(driver);
+		jol.homescrolling();
 	}
 	@Test(priority = 2)
 	public void pfile() throws Exception
 	{
 		Jolly jo = new Jolly(driver);
 		jo.profilelogin();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		jo.loginbtn();
 	}
 	@Test(priority = 3)

@@ -5,10 +5,7 @@
     <classes>
       <class name="testpkg.Testing">
         <methods>
-          <include name="cartbtn"/>
-          <include name="bagbtn"/>
-          <include name="clearingcart"/>
-          <include name="cout"/>
+          <include name="scroll"/>
           <include name="loading"/>
         </methods>
       </class> <!-- testpkg.Testing -->
